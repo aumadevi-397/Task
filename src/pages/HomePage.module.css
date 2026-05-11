@@ -1,0 +1,244 @@
+
+.homePage {
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+.container2 {
+  width: 100%;
+  height: 50vh;
+  background-image: url("https://images.unsplash.com/photo-1516321318423-f06f85e504b3");
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  padding-left: 30px;
+  padding-top: 150px;
+}
+
+#text1 {
+  color:white;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: left;
+}
+
+/* Services */
+
+.part2 {
+  width: 100%;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.part2 h1 {
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+.second {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 300px;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px lightgray;
+  transition: 0.3s;
+  background-color: white;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card img {
+  width: 80px;
+  margin-bottom: 20px;
+}
+
+.card h2 {
+  margin-bottom: 15px;
+}
+
+.card p {
+  color: gray;
+  line-height: 25px;
+}
+
+/* About Section */
+
+.section3 {
+  width: 100%;
+  padding: 70px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.photo {
+  width: 450px;
+  border-radius: 20px;
+}
+
+.text {
+  max-width: 500px;
+}
+
+.text h4 {
+  color: blue;
+  margin-bottom: 15px;
+}
+
+.text h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.text p {
+  color: gray;
+  line-height: 28px;
+}
+
+.small {
+  margin-top: 30px;
+}
+
+.rr {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 25px;
+}
+
+.photo3 {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+button {
+  margin-top: 20px;
+  padding: 12px 25px;
+  border: none;
+  background-color: navy;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: darkblue;
+}
+
+/* Counter Section */
+
+.count {
+  width: 100%;
+  background-color: #0b1c39;
+  padding: 60px 20px;
+}
+
+.count1 {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.vv {
+  text-align: center;
+  color: white;
+}
+
+.vv h1 {
+  font-size: 45px;
+  margin-bottom: 10px;
+}
+
+/* Work Process */
+
+.f1 {
+  width: 100%;
+  padding: 70px 20px;
+}
+
+.f2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.f2 h5 {
+  color: blue;
+  margin-bottom: 10px;
+}
+
+.f2 h1 {
+  font-size: 40px;
+}
+
+.ff {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.fff {
+  width: 320px;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px lightgray;
+  text-align: center;
+  background-color: white;
+}
+
+.image {
+  width: 100%;
+  height: 220px;
+  border-radius: 15px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.fff h2 {
+  margin-bottom: 15px;
+}
+
+.fff p {
+  color: gray;
+  line-height: 26px;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+  .text1 {
+    font-size: 40px;
+  }
+
+  .text h1,
+  .part2 h1,
+  .f2 h1 {
+    font-size: 30px;
+  }
+
+  .photo {
+    width: 100%;
+  }
+
+  .card,
+  .fff {
+    width: 100%;
+  }
+}
