@@ -160,36 +160,18 @@ function AboutPage() {
 
       </div>
 
-      {/* Slider */}
+     
+     {/* Slider */}
       <div className={styles.slide}>
+        
         <div className={styles.slideTrack}>
 
           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSUktuE8vPPd2FVSaLcGZEfgYgbwJ1I6r0KA&s" alt="img1"/>
-             <div>
-            <h5>Technology</h5>
-            <h1>Platform Integration</h1>
-          </div>
-
           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj6AxCV_zVjZ_hYr2M8K-D4D69DusdtSiP_A&s"alt="img2"/>
-         <div>
-            <h5>Solution</h5>
-            <h1>web Development</h1>
-          </div>
-
           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLzKDfknUUtcZVTMEAIGRJQxdokrAMwLnniQ&s" alt="img3" />
-         
-          <div>
-            <h5>Security</h5>
-            <h1>Network Security</h1>
-          </div>
-
           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSUktuE8vPPd2FVSaLcGZEfgYgbwJ1I6r0KA&s" alt="img4" />
-            <div>
-            <h5>Solution</h5>
-            <h1>IT management</h1>
-          </div>
-
-        </div>
+         
+         </div>
       </div>
 
     </div>

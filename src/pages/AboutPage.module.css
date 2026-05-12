@@ -190,12 +190,13 @@
   display: flex;
   gap: 20px;
   animation: scroll 5s linear infinite;
+  
 }
 
 .slideTrack img {
- height: 70vh;
-  width: 25%;
-  
+ height: 50vh;
+ width: 25%;
+ 
 }
 
 
@@ -209,6 +210,8 @@
   }
 }
 
+
+
 /* ================= RESPONSIVE ================= */
 @media (max-width: 768px) {
   .ss {
@@ -216,17 +219,5 @@
     text-align: center;
   }
 
-  #photo2 {
-    width: 100%;
-  }
-
-  .third {
-    flex-direction: column;
-    gap: 20px;
-    text-align: center;
-  }
-
-  .fieldContainer {
-    justify-content: center;
-  }
+ 
 }
