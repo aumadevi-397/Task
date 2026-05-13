@@ -9,11 +9,15 @@ import ContactPage from "./pages/ContactPage";
 
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
+import ScrollToTop from "./Components/ScroolToTop";
 
 function App() {
 
   return (
     <BrowserRouter>
+     <>
+      <ScrollToTop />
+
 
       <Navbar />
 
@@ -24,6 +28,7 @@ function App() {
         <Route path="/blogs" element={<BlogsPage />} />
         <Route path="/contact" element={<ContactPage />} />
       </Routes>
+          </>
       
         <div>
       <Footer />

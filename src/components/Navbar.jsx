@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import styles from "./Navbar.module.css";
@@ -34,7 +33,7 @@ function Navbar() {
         <Link to="/blogs" onClick={() => setOpen(false)}>Blogs</Link>
         <Link to="/contact" onClick={() => setOpen(false)}>Contact</Link>
       </div>
-
+      
     </nav>
   );
 }
