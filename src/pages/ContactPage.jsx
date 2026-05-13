@@ -17,7 +17,7 @@ function Contact() {
         {/* Left Side */}
         <div className={styles.tt}>
 
-          <h2>Contact Information</h2>
+          <h1>Contact Information</h1>
 
           <p>
             Nullam varius, erat quis iaculis dictum,

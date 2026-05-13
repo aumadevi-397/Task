@@ -180,25 +180,25 @@
 }
 
 /* ================= SLIDER ================= */
+
 .slide {
   overflow: hidden;
+  width: 100%;
   padding: 40px 0;
-  background: #fff;
 }
 
 .slideTrack {
   display: flex;
   gap: 20px;
+  width: max-content;
   animation: scroll 5s linear infinite;
-  
 }
 
 .slideTrack img {
- height: 50vh;
- width: 25%;
+ height: 400px;
+ width: 300px;
  
 }
-
 
 /* Animation */
 @keyframes scroll {
@@ -220,4 +220,11 @@
   }
 
  
+}
+
+.texts{
+  color:navy;
+}
+h2{
+  color: black;
 }

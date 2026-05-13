@@ -30,22 +30,20 @@ function Footer() {
 
       <div style={{ width: "220px" }}>
         <h1>IT Solution</h1>
-
-        <p>{">> "}IT Management</p>
-        <p>{">> "}SEO Optimization</p>
-        <p>{">> "}Web Development</p>
-        <p>{">> "}Cyber Security</p>
-        <p>{">> "}Data Security</p>
+        <p>IT Management</p>
+        <p>SEO Optimization</p>
+        <p>Web Development</p> 
+        <p>Cyber Security</p>
+        <p>Data Security</p> 
       </div>
 
       <div style={{ width: "220px" }}>
         <h1>Quick Link</h1>
-
-        <p>{">> "}About Gratech</p>
-        <p>{">> "}Our Services</p>
-        <p>{">> "}Pricing Plan</p>
-        <p>{">> "}Our Projects</p>
-        <p>{">> "}Our Team</p>
+        <p>About Gratech</p> 
+        <p>Our Services</p> 
+        <p>Pricing Plan</p> 
+        <p>Our Projects</p> 
+        <p>Our Team</p>
       </div>
 
       <div style={{ width: "220px" }}>

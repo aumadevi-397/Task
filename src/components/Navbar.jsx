@@ -7,48 +7,47 @@ function Navbar() {
       style={{
         margin: "0px",
         backgroundColor: "navy",
-        paddingTop: "30px",
         display: "flex",
         gap: "30px",
-        height: "50px",
+        height: "70px",
+        alignItems: "center",
         justifyContent: "center",
         fontWeight: "bold",
         fontSize: "20px",
         width: "100%",
       }}
     >
-      <Link
-        style={{ color: "white", textDecoration: "none" }}
-        to="/"
-      >
+
+      {/* Logo */}
+      <img
+        src="https://gratech.vercel.app/_next/static/media/logo-light.c8c9f0c9.svg"
+        alt="logo"
+        style={{
+          width: "150px",
+          height: "40px",
+          alignContent: "left",
+          marginRight: "100px",
+      
+        }}
+      />
+
+      <Link style={{ color: "white", textDecoration: "none" }} to="/">
         Home
       </Link>
 
-      <Link
-        style={{ color: "white", textDecoration: "none" }}
-        to="/about"
-      >
+      <Link style={{ color: "white", textDecoration: "none" }} to="/about">
         About
       </Link>
 
-      <Link
-        style={{ color: "white", textDecoration: "none" }}
-        to="/services"
-      >
+      <Link style={{ color: "white", textDecoration: "none" }} to="/services">
         Services
       </Link>
 
-      <Link
-        style={{ color: "white", textDecoration: "none" }}
-        to="/blogs"
-      >
+      <Link style={{ color: "white", textDecoration: "none" }} to="/blogs">
         Blogs
       </Link>
 
-      <Link
-        style={{ color: "white", textDecoration: "none" }}
-        to="/contact"
-      >
+      <Link style={{ color: "white", textDecoration: "none" }} to="/contact">
         Contact
       </Link>
     </nav>
@@ -56,3 +55,4 @@ function Navbar() {
 }
 
 export default Navbar;
+
