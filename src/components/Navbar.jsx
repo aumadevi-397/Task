@@ -1,56 +1,38 @@
 
+import { useState } from "react";
 import { Link } from "react-router-dom";
+import styles from "./Navbar.module.css";
 
 function Navbar() {
-  return (
-    <nav
-      style={{
-        margin: 0,
-        backgroundColor: "navy",
-        display: "flex",
-        alignItems: "center",
-        height: "70px",
-        width: "100%",
-        padding: "0 20px",
-        position: "relative",
-      }}
-    >
+  const [open, setOpen] = useState(false);
 
-      {/* LOGO - LEFT SIDE */}
+  return (
+    <nav className={styles.navbar}>
+
+      {/* LOGO */}
       <img
         src="https://gratech.vercel.app/_next/static/media/logo-light.c8c9f0c9.svg"
         alt="logo"
-        style={{
-          width: "150px",
-          height: "40px",
-        }}
+        className={styles.logo}
       />
 
-      {/* LINKS - CENTER */}
+      {/* HAMBURGER */}
       <div
-        style={{
-          position: "absolute",
-          left: "50%",
-          transform: "translateX(-50%)",
-          display: "flex",
-          gap: "30px",
-        }}
+        className={styles.hamburger}
+        onClick={() => setOpen(!open)}
       >
-        <Link style={{ color: "white", textDecoration: "none" }} to="/">
-          Home
-        </Link>
-        <Link style={{ color: "white", textDecoration: "none" }} to="/about">
-          About
-        </Link>
-        <Link style={{ color: "white", textDecoration: "none" }} to="/services">
-          Services
-        </Link>
-        <Link style={{ color: "white", textDecoration: "none" }} to="/blogs">
-          Blogs
-        </Link>
-        <Link style={{ color: "white", textDecoration: "none" }} to="/contact">
-          Contact
-        </Link>
+        ☰
+      </div>
+
+      {/* LINKS */}
+      <div
+        className={`${styles.navLinks} ${open ? styles.active : ""}`}
+      >
+        <Link to="/" onClick={() => setOpen(false)}>Home</Link>
+        <Link to="/about" onClick={() => setOpen(false)}>About</Link>
+        <Link to="/services" onClick={() => setOpen(false)}>Services</Link>
+        <Link to="/blogs" onClick={() => setOpen(false)}>Blogs</Link>
+        <Link to="/contact" onClick={() => setOpen(false)}>Contact</Link>
       </div>
 
     </nav>
@@ -58,4 +40,3 @@ function Navbar() {
 }
 
 export default Navbar;
-
